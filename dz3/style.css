@@ -1,15 +1,38 @@
-.clB {
-    color: blue;
-}
-.clO {
+h1, h2 {
     color: orange;
 }
-.clG {
-    color: green;
-}
-h1.clO{
+h1 {
     text-align: right;
 }
-p {
-    text-align: center;
+h2:last-of-type {
+    color: blue;
+}
+.text mark {
+    color: white;
+    background-color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+.text:first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+ul li span {
+    font-weight: bold;
+}
+li ol li {
+    color: red;
+}
+#menu1 li:first-child ol li {
+    color: gray;
+}
+#menu2 li:first-child ol li {
+    color: green;
+}
+table td:first-of-type {
+    color: orange;
+}
+table td+td  {
+    background-color: green;
 }
