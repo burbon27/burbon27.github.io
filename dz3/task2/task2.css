@@ -1,0 +1,7 @@
+p:nth-child(1) {
+    font-weight: bold;
+}
+
+p:nth-last-child(1) {
+    color: #999;
+}
