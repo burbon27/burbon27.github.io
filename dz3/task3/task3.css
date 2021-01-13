@@ -1,0 +1,15 @@
+/*p:not([align='right']) {
+color:green;
+}
+.text {
+    color:black;
+}
+.text:first-child {
+    color: red;
+}
+.text:last-child {
+    font-weight: bolder;
+    color: blue;
+}
+*/
+article :only-child { color: red; }
